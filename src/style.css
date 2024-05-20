@@ -1,0 +1,58 @@
+body {
+    background-image: url('./assets/restaurant-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: "Caveat", cursive;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+#content {
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+    background-color: rgb(234, 236, 238, 0.9);
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1,
+h3 {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h3 {
+    font-size: 60px;
+}
