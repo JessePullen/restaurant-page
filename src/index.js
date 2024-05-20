@@ -1,3 +1,4 @@
-import { initialLayout } from './initialLayout';
+import './style.css';
+import { homePage } from './home-page';
 
-initialLayout();
+homePage();

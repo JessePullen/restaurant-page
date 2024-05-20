@@ -1,6 +1,4 @@
-import './style.css';
-
-function initialLayout() {
+function homePage() {
     const content = document.querySelector('#content');
 
     const banner = document.createElement('div');
@@ -17,4 +15,4 @@ function initialLayout() {
     banner.appendChild(headline);
 }
 
-export { initialLayout };
+export { homePage };
