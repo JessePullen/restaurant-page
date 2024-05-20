@@ -1,0 +1,5 @@
+function aboutPage() {
+    
+}
+
+export { aboutPage };
