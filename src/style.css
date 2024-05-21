@@ -32,7 +32,7 @@ button:hover {
     justify-content: center;
 }
 
-.banner {
+.home-banner {
     background-color: rgb(234, 236, 238, 0.9);
     height: 400px;
     width: 800px;
@@ -44,9 +44,19 @@ button:hover {
     flex-direction: column;
 }
 
+.about-banner {
+    background-color: rgb(234, 236, 238, 0.9);
+    height: 800px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-top: 20px;
+}
+
 h1,
 h3 {
     margin: 10px;
+    margin-left: -15px;
 }
 
 h1 {
@@ -55,4 +65,16 @@ h1 {
 
 h3 {
     font-size: 60px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    font-size: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
 }

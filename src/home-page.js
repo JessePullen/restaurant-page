@@ -5,7 +5,7 @@ function homePage() {
     const title = document.createElement('h1');
     const headline = document.createElement('h3');
 
-    banner.classList.add('banner');
+    banner.classList.add('home-banner');
 
     title.textContent = 'Sizzle & Surf';
     headline.textContent = 'Steak & Seafood';
