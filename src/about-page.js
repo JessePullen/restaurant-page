@@ -16,12 +16,11 @@ function aboutPage() {
 
     2. Craftsmanship: Our skilled chefs treat steak as an art form. From dry-aging techniques to precise grilling, we elevate each dish to perfection.
 
-    3. Ambiance: Sizzle & Surf boasts an elegant, yet cozy ambiance. Dark wood accents, dimmed lighting and plush leather booths create an inviting space. Whether it’s a romantic dinner or a celebratory gathering, our restaurant sets the stage for memorable moments.
-    `
+    3. Ambiance: Sizzle & Surf boasts an elegant, yet cozy ambiance. Dark wood accents, dimmed lighting and plush leather booths create an inviting space. Whether it’s a romantic dinner or a celebratory gathering, our restaurant sets the stage for memorable moments.`
 
     content.appendChild(banner);
     banner.appendChild(title);
-    banner.appendChild(subheading);
+    banner.appendChild(subheading)
     banner.appendChild(text);
 }
 

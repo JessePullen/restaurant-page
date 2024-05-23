@@ -1,3 +1,4 @@
+/* General */
 body {
     background-image: url('./assets/restaurant-background.jpg');
     background-repeat: no-repeat;
@@ -32,27 +33,6 @@ button:hover {
     justify-content: center;
 }
 
-.home-banner {
-    background-color: rgb(234, 236, 238, 0.9);
-    height: 400px;
-    width: 800px;
-    border-radius: 10px;
-    border: 2px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.about-banner {
-    background-color: rgb(234, 236, 238, 0.9);
-    height: 800px;
-    width: 800px;
-    border-radius: 10px;
-    border: 2px solid black;
-    padding-top: 20px;
-}
-
 h1,
 h3 {
     margin: 10px;
@@ -77,4 +57,62 @@ p {
     font-size: 26px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+/* Page Specific */
+.home-banner {
+    background-color: rgb(234, 236, 238, 0.9);
+    height: 400px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-banner,
+.menu-banner {
+    background-color: rgb(234, 236, 238, 0.9);
+    height: 800px;
+    width: 800px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding-top: 20px;
+}
+
+.menu-banner {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+.menu-banner h3 {
+    grid-column: 1 / span 2;
+    padding-bottom: 0px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 350px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.menu-item h5,
+.menu-item p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.menu-item-photo {
+    height: 200px;
+    width: 300px;
+    border: solid black 1px;
 }
