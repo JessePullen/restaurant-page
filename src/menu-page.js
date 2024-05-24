@@ -41,7 +41,7 @@ function displayMenuItems(banner) {
         const menuItemDesc = document.createElement('p');
 
         menuItem.classList.add('menu-item');
-        menuItem.classList.add('menu-item-' + i);
+        menuItemPhoto.classList.add('menu-item-photo-' + i);
         menuItemPhoto.classList.add('menu-item-photo');
 
         menuItemName.textContent = menu[i].name;

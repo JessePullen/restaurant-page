@@ -115,4 +115,30 @@ p {
     height: 200px;
     width: 300px;
     border: solid black 1px;
+    border-radius: 5px;
+}
+
+.menu-item-photo-0 {
+    background-image: url('./assets/menu-surf-and-turf.jpg');
+}
+
+.menu-item-photo-1 {
+    background-image: url('./assets/menu-lobster.jpg');
+}
+
+.menu-item-photo-2 {
+    background-image: url('./assets/menu-tomahawk.jpg');
+}
+
+.menu-item-photo-3 {
+    background-image: url('./assets/menu-salmon.jpg');
+}
+
+.menu-item-photo-0,
+.menu-item-photo-1,
+.menu-item-photo-2,
+.menu-item-photo-3 {
+    height: 200px;
+    width: 300px;
+    background-size: contain;
 }
